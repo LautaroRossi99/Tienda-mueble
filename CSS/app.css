@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -237,6 +238,50 @@ img {
   text-align: center;
 }
 
+/* footer redes */
+.redes-footer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hiper{
+  text-decoration: none;
+}
+
+.redes-footer .icon-redes-footer{
+  font-size: 20px;
+  margin: 20px;
+  background-color:#037bc0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: rgba(202, 196, 196, 0.76);
+}
+
+.bi-facebook:hover{
+  background-color: rgb(40, 40, 224);
+  color: white;
+}
+
+.bi-instagram:hover{
+  background: linear-gradient( #FCDE30, #E9712A, #D2313B, #AE4198,#7540A1,#5443A8);
+  color: white;
+}
+
+.bi-youtube:hover{
+  background-color:red ;
+  color: white;
+}
+
+.bi-whatsapp:hover{
+  background-color: green;
+  color: white;
+}
+
 /* Nosotros*/
 
 .contenido-nosotros {
@@ -254,6 +299,59 @@ img {
   justify-content: center;
   margin-left: 1rem;
   margin-right: 1rem;
+}
+
+/* PRESENTACION PERSONAL */
+
+
+.contenedorPresentacion{
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20%;
+}
+
+.card{
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000000;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 10px;
+}
+
+
+.card img{
+  width: 100%;
+}
+
+.card:hover{
+  transform: scale(1.03);
+  transition: ease-in 1s;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.cardPersonal{
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  padding: 3vh 5vw;
+  border-radius: 4px;
+  background-color: #8fccf0;
+  gap: 35px;
+}
+
+.cardPersonal .cardSVG{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 3px 3px #037bc0;
 }
 
 /*Blog*/
@@ -303,8 +401,17 @@ img {
 /*Formulario*/
 
 .formulario {
+  display: flex;
+  flex-direction: column;
   max-width: 36rem;
   margin: 0 auto;
+}
+
+.formulario .campo{
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  width: 100%;
 }
 .formulario fieldset {
   border: 1px solid #000;
@@ -319,4 +426,34 @@ img {
   font-weight: 700;
   padding: 1rem;
   margin-bottom: 4rem;
+}
+
+
+/* Section Categorias */
+
+.consultas{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 3vh;
+  width: 40%;
+}
+
+.cons{
+  text-align: center;
+
+}
+
+
+.contenedorConsultas{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-consultas{
+    width: 400px;
+    background-color: #005485 ;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
 }
