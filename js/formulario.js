@@ -1,6 +1,7 @@
 const formularioReg = document.getElementById("formularioReg")
 const cliente = []
 const contenedorConsultasHTML = document.querySelector(".contenedorConsultas")
+const submitForm = document.getElementById("submitForm")
 
 
 formularioReg.addEventListener("submit",(event) =>{
@@ -30,3 +31,11 @@ const renderizarConsultas = () => {
         `
     }
  }
+
+ submitForm.addEventListener("click",() => {
+    Swal.fire(
+        'Muchas gracias!',
+        'Realizo la consulta con exito'
+      )
+ })
+ 

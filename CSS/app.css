@@ -330,6 +330,8 @@ img {
   transform: scale(1.03);
   transition: ease-in 1s;
   box-shadow: 0 0 10px rgb(0, 0, 0);
+  background-color: #037bc0;
+  color: white;
 }
 
 .cardPersonal{
