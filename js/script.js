@@ -1,5 +1,5 @@
 const contenedorPresentacionHTML = document.getElementById("contenedorPresentacion")
-fetch("../database/vendedores.json")
+fetch("./database/vendedores.json")
     .then(response => response.json())
     .then(vendedores =>{
         for(const vendedor of vendedores){
