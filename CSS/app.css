@@ -451,10 +451,13 @@ img {
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .card-consultas{
+    margin: 5px;
     width: 400px;
     background-color: #005485 ;
+    text-align: center;
     color: aliceblue;
     padding: 10px;
     border-radius: 5px;
